@@ -29,7 +29,7 @@ def rakuten_item_search(query_parameters):
 
     data = response.json()
 
-    save_to_json_file(data, "rakuten-api-data.json")
+    save_to_json_file(data, "./output/rakuten-api-data.json")
 
     items = []
 
@@ -91,4 +91,4 @@ query_parameters = {
 }
 
 items = rakuten_item_search(query_parameters)
-save_to_json_file(items, "rakuten.json")
+save_to_json_file(items, "./output/rakuten.json")

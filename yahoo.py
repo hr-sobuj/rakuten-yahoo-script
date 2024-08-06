@@ -31,7 +31,7 @@ def yahoo_item_search(query_parameters):
     if response.status_code == 200:
         response_json = response.json()
 
-        save_to_json_file(response_json,'yahoo-api-data.json')
+        save_to_json_file(response_json,'./output/yahoo-api-data.json')
 
         if response_json.get("hits"):
             for i in response_json["hits"]:
@@ -87,4 +87,4 @@ def yahoo_item_search(query_parameters):
 query_parameters = {"query": "nike", "is_discounted": "true"}
 
 items = yahoo_item_search(query_parameters)
-save_to_json_file(items, "yahoo.json")
+save_to_json_file(items, "./output/yahoo.json")

@@ -34,8 +34,8 @@
         "tax_included": true,
         "point_multiplier": 1,
         "best_seller": false,
-        "sale_start_time": "",
-        "sale_end_time": "",
+        "sale_start_time": "2024-08-06 18:10",
+        "sale_end_time": "2024-08-06 23:59",
         "platform": "rakuten",
         "discount": "20"
     },
@@ -73,8 +73,8 @@
         "tax_included": true,
         "point_multiplier": 1,
         "best_seller": false,
-        "sale_start_time": "",
-        "sale_end_time": "",
+        "sale_start_time": "2024-08-06 18:30",
+        "sale_end_time": "2024-08-06 23:59",
         "platform": "rakuten",
         "discount": "20"
     }
